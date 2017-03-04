@@ -107,37 +107,39 @@
 				<li>娜美7</li>
 				<li>乔巴8</li>
 			</ol>
-			<table class="rankTable">
-				<tr class="rankTableHead">
-					<th>表头</th>
-					<th>表头</th>
-					<th>表头</th>
-				</tr>
-				<tr>
-					<td>表格内容</td>
-					<td>表格内容</td>
-					<td><a href="">操作</a></td>
-				</tr>
-				<tr>
-					<td>表格内容</td>
-					<td>表格内容</td>
-					<td><a href="">操作</a></td>
-				</tr>
-				<tr>
-					<td>表格内容</td>
-					<td>表格内容</td>
-					<td><a href="">操作</a></td>
-				</tr>
-				<tr class="rankTablTail">
-					<td>总计</td>
-					<td colspan=2>1000</td>
-				</tr>
-			</table>
+			<div class="rankTable">
+				<table>
+					<tr class="rankTableHead">
+						<th>表头</th>
+						<th>表头</th>
+						<th>表头</th>
+					</tr>
+					<tr>
+						<td>表格内容</td>
+						<td>表格内容</td>
+						<td><a href="">操作</a></td>
+					</tr>
+					<tr>
+						<td>表格内容</td>
+						<td>表格内容</td>
+						<td><a href="">操作</a></td>
+					</tr>
+					<tr>
+						<td>表格内容</td>
+						<td>表格内容</td>
+						<td><a href="">操作</a></td>
+					</tr>
+					<tr class="rankTablTail">
+						<td>总计</td>
+						<td colspan=2>1000</td>
+					</tr>
+				</table>
+			</div>
 		</div>	
 		<div class="bottomBox">		
 			<h1 class="firstTitle">这是侧栏标题</h1>
 			<h2 class="secondTitle">侧栏注册窗口标题</h2>
-			<div class="regist">
+			<aside class="regist">
 				<form action="" method="POST">
 					<table>
 						<tr>
@@ -192,16 +194,15 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="right"><label for="desc">个人描述：</label></td>
-							<td class="left"><textarea cols=20 rows=10 id="desc">这是一个文本区域</textarea></td>
-						</tr>
-						<tr>
-							<td colspan=2><input class="submitButton" type="submit" value="确认提交"/></td>
+							<td class="right description"><label for="desc">个人描述：</label></td>
+							<td class="left"><textarea id="desc"placeholder="这是一个文本区域"></textarea></td>
 						</tr>
 					</table>
+					<input class="submitButton" type="submit" value="确认提交"/>
 				</form>
-			</div>
+			</aside>
 	</div>
 	<div class="tailBox">版权所有&copy;</div>
+	<
 	</body>
 </html>

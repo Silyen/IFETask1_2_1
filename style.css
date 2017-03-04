@@ -15,7 +15,6 @@ p{
 	position:relative;
 	background:black;
 	border:solid;
-	color:white;
 	width:100%;
 	left:0;
 	margin:0;
@@ -29,8 +28,11 @@ p{
 	bottom:0; 
 	text-align:center;
 	font-family:"黑体";
-	font-size:12px;
+	font-size:14px;
+	color:white;
 }
+
+/*logo*/
 .topLogo{
 	display:inline-block;
 	//float:left;
@@ -62,7 +64,6 @@ p{
 	color:#f0f0f0;
 }
 /*导航链接end*/
-/*logo*/
 
 /*主内容背景框*/
 .bottomBox{
@@ -72,6 +73,7 @@ p{
 	margin:10px 20px 10px 20px;
 	padding:20px;
 }
+
 /*标题设置*/
 .firstTitle{
 	font-size:24px;
@@ -88,20 +90,30 @@ p{
 	color:#778899;
 }
 /*标题end*/
+
 /*文章内图片设置*/
 .picParagraph{
 	display:inline-block;
 	width:200px;
 	height:200px;
 }
+
 /*表格设置*/
 .rankTable{
 	width:100%;
-}
-.rankTable table,.rankTable tr,.rankTable td,.rankTable th{
-	border:1px solid #778899;
-	border-spacing:0px;
 	text-align:center;
+	font-size:14px;
+}
+.rankTable table{
+	border:1px solid #cccccc;
+	width:100%;
+	border-collapse:collapse;
+	
+}
+.rankTable td,.rankTable th{	
+	border:1px solid #778899;
+	line-height:24px;
+	
 }
 .rankTableHead{
 	background:#000000;
@@ -133,11 +145,17 @@ p{
 }
 /*图片设置结束*/
 /*侧栏设计*/
-form.table,tr,td,th{
-	border:0;
+.regist form{
+	width:100%;
+	font-size:14px;
 }
-.regist{
-	text-align:center;
+.regist table{
+	width:100%;
+}
+.regist textarea{
+	width:50%;
+	height:100px;
+	vertical-align:bottom;
 }
 .left{
 	text-align:left;
@@ -147,9 +165,16 @@ form.table,tr,td,th{
 }
 .tip{
 	color:#bebebe;
-	font-size:14px;
+	//font-size:14px;
 }
-.submitButton{
+.description{
+	vertical-align:top;
+}
+.regist form .submitButton{
 	width:100%;
+	height:40px;
+	background-color:blue;
+	color:#ffffff;
+	border-radius:10px;
 }
 /*侧栏end*/

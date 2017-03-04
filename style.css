@@ -1,0 +1,155 @@
+body{
+	background:#dcdcdc;
+	margin:0;
+}
+div{
+	display:inline-block;
+}
+/*段落设置*/
+p{
+	text-indent:2em;
+}
+/*导航栏 底栏*/
+.topBox,.tailBox{
+	display:inline-block;
+	position:relative;
+	background:black;
+	border:solid;
+	color:white;
+	width:100%;
+	left:0;
+	margin:0;
+	padding:10px;
+	border:0;
+}
+.topBox{
+	top:0;
+}
+.tailBox{
+	bottom:0; 
+	text-align:center;
+	font-family:"黑体";
+	font-size:12px;
+}
+.topLogo{
+	display:inline-block;
+	//float:left;
+	position:relative;
+	left:60px;
+	width:50px;
+	height:50px;
+}
+/*导航链接*/
+.topLink{
+	display:inline-block;
+	float:right;
+	margin-top:15px;
+}
+.topLink a{
+	font-size:12px;
+	text-decoration:none;
+}
+.topLink a:link{
+	color:#ffffff;
+}
+.topLink a:visted{
+	color:#f0f0f0;
+}
+.topLink a:hover{
+	color:#ff0000;
+}
+.topLink a:active{
+	color:#f0f0f0;
+}
+/*导航链接end*/
+/*logo*/
+
+/*主内容背景框*/
+.bottomBox{
+	display:inline-block;
+	background:white;
+	width:100%;
+	margin:10px 20px 10px 20px;
+	padding:20px;
+}
+/*标题设置*/
+.firstTitle{
+	font-size:24px;
+	font-family:"黑体";
+	color:black;
+}
+.secondTitle{
+	font-size:18px;
+	font-family:"黑体";
+	color:#696969;
+}
+.author{
+	font:12px bold;
+	color:#778899;
+}
+/*标题end*/
+/*文章内图片设置*/
+.picParagraph{
+	display:inline-block;
+	width:200px;
+	height:200px;
+}
+/*表格设置*/
+.rankTable{
+	width:100%;
+}
+.rankTable table,.rankTable tr,.rankTable td,.rankTable th{
+	border:1px solid #778899;
+	border-spacing:0px;
+	text-align:center;
+}
+.rankTableHead{
+	background:#000000;
+	color:white;
+}
+.rankTablTail{
+	background:#d3d3d3;
+}
+/*表格end*/
+/*图片设置*/
+.picBox{
+	display:inline-block;	
+	width:100px;
+	height:100px;
+	padding:10px;
+	border:solid #d3d3d3;
+	text-align:center;
+	font-size:14px;
+}
+.picText{
+	display:inline-block;
+	font-size:14px;
+}
+.pic{
+	display:inline-block;	
+	width:80px;
+	height:80px;
+	margin:10px;
+}
+/*图片设置结束*/
+/*侧栏设计*/
+form.table,tr,td,th{
+	border:0;
+}
+.regist{
+	text-align:center;
+}
+.left{
+	text-align:left;
+}
+.right{
+	text-align:right;
+}
+.tip{
+	color:#bebebe;
+	font-size:14px;
+}
+.submitButton{
+	width:100%;
+}
+/*侧栏end*/
